@@ -11,5 +11,6 @@ declare -i COUNT=5
 
 COUNT=COUNT+1
 
-FRUITS = ("Apple" "Banana" "Orannge")
-echo {"All fruits: ${FRUITS[@]}}
+FRUITS=("Apple" "Banana" "Pappaya") # This is called as array
+echo "All fruits: ${FRUITS[@]}"
+echo "First fruit: ${FRUITS[1]}"
