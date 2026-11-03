@@ -7,6 +7,6 @@ var3=Harshi
 echo "sum is: $var1+$var2"
 echo "$(($var1+$var2+$var3))"
 
-declare -i count=5
+declare -i COUNT=5
 
-echo "count=count+1"
+echo "COUNT=COUNT+1"
