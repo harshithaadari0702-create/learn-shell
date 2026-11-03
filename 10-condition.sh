@@ -1,21 +1,20 @@
 #!/bin/bash
 
-echo "please enter marks"
-
+echo "Please enter the marks"
 read marks
 
-if[ $marks -lt 33 ]; then
-    echo "fail"
+# lt -> less than
 
-elif[ $marks -lt 50 ]; then
-    echo "third class"
-
-elif[ $marks -lt 70 ]; then
-    echo "second class"
-
+if [ $marks -lt 33 ]; then
+    echo "Fail"
+elif [ $marks -lt 50 ]; then
+    echo "Third class"
+elif [ $marks -lt 60 ]; then
+    echo "Second class"
+elif [ $marks -lt 75 ]; then
+    echo "First class"
 else
-    echo "distinction"
-
+    echo "Distinction"
 fi
 
-echo "end"
+echo "End"
