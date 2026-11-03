@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo("please enter marks")
+echo "please enter marks"
 
 read marks
 
