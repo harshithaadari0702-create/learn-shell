@@ -5,16 +5,16 @@ echo "please enter marks"
 read marks
 
 if[ $marks -lt 33 ]; then
-echo "fail"
+    echo "fail"
 
 elif[ $marks -lt 50 ]; then
-echo "third class"
+    echo "third class"
 
 elif[ $marks -lt 70 ]; then
-echo "second class"
+    echo "second class"
 
 else
-echo "distinction"
+    echo "distinction"
 
 fi
 
