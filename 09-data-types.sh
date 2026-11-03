@@ -9,4 +9,4 @@ echo "$(($var1+$var2+$var3))"
 
 declare -i COUNT=5
 
-echo "COUNT=COUNT+1"
+COUNT=COUNT+1
